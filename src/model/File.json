@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "type": "model",
+  "fields": {
+    "id": {
+      "type": "int",
+      "dbField": "fileid"
+    },
+    "filehash": {
+      "type": "string",
+      "json": "fh"
+    },
+    "title": {
+      "type": "string",
+      "json": "tl"
+    },
+    "dateline": {
+      "type": "date",
+      "json": "dl"
+    }
+  }
+}
