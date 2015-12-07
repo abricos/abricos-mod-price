@@ -15,6 +15,6 @@ $v = &$brick->param->var;
 $app = Abricos::GetModule('price')->GetManager()->GetApp();
 $file = $app->File();
 
-$brick->content = empty($file) ? "#" : "/filemanager/i/".$file->filehash."/".$file->title;
+$brick->content = is_integer($file) ? "#" : "/filemanager/i/".$file->filehash."/".$file->title;
 
 ?>
