@@ -40,12 +40,6 @@ class PriceApp extends AbricosApplication {
         return null;
     }
 
-    private $_cache = array();
-
-    public function CacheClear(){
-        $this->_cache = array();
-    }
-
     public function FileToJSON(){
         $res = $this->File();
         return $this->ResultToJSON('file', $res);
