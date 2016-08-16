@@ -13,7 +13,7 @@
  */
 class PriceModule extends Ab_Module {
 
-    public function PriceModule(){
+    public function __construct(){
         $this->version = "0.1.0";
         $this->name = "price";
         $this->takelink = "price";
@@ -75,5 +75,3 @@ class PricePermission extends Ab_UserPermission {
 }
 
 Abricos::ModuleRegister(new PriceModule());
-
-?>

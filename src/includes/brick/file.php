@@ -16,5 +16,3 @@ $app = Abricos::GetModule('price')->GetManager()->GetApp();
 $file = $app->File();
 
 $brick->content = is_integer($file) ? "#" : "/filemanager/i/".$file->filehash."/".$file->title;
-
-?>

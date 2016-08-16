@@ -35,5 +35,3 @@ class PriceConfig extends AbricosModel {
     protected $_structModule = 'price';
     protected $_structName = 'Config';
 }
-
-?>

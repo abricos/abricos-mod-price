@@ -47,5 +47,3 @@ $brick->param->var['command'] = Brick::ReplaceVarByData($brick->param->var['ok']
     "idWidget" => isset($dir[2]) ? $dir[2] : '',
     "fid" => $upload->uploadFileHash
 ));
-
-?>

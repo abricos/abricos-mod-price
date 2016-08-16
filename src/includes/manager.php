@@ -68,5 +68,3 @@ class PriceManager extends Ab_ModuleManager {
         );
     }
 }
-
-?>

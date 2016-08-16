@@ -121,5 +121,3 @@ class PriceApp extends AbricosApplication {
         Abricos::$phrases->Save();
     }
 }
-
-?>

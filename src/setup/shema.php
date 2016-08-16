@@ -32,6 +32,3 @@ if ($updateManager->isInstall()){
 		)".$charset
     );
 }
-
-
-?>
